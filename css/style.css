@@ -1,3 +1,5 @@
+/*----General Rules-----*/
+
 a, body, div, footer, form, h1, h2, h3, h4, h5, h6, header, hr, html, img, input, label, li, main, nav, ol, p, section, span, svg, ul {
   border: none;
   vertical-align: baseline;
@@ -8,7 +10,6 @@ a, body, div, footer, form, h1, h2, h3, h4, h5, h6, header, hr, html, img, input
 a:hover {
   text-decoration: none;
 }
-
 
 body {
   padding-top: 60px;
@@ -21,6 +22,8 @@ body {
   padding: 0 40px;
 }
 
+
+/*----Navigation-----*/
 .nav-container {
   position: relative;
 }
@@ -59,6 +62,8 @@ body {
   text-decoration: none;
 }
 
+
+/*----Search Bar-----*/
 .bar {
   margin-top: 40px;
   margin-left: 180px;
@@ -81,14 +86,14 @@ body {
    color: #CBCBCB;
 }
 
+/*----Paragraph Text-----*/
 .exp {
   position: relative;
   margin-left: 180px;
   width: 480px;
 }
 
-
-
+/*----Suggestion Generator-----*/
 .selectors {
   position: relative;
   margin-left: 180px;
@@ -201,6 +206,8 @@ body {
   border-radius: 8px;
 }
 
+
+/*----Tools List-----*/
 .tools {
   color: black;
   font-size: 18px;
@@ -214,7 +221,6 @@ body {
 .tile-text a:hover{
   text-decoration: none;
 }
-
 
 .tile {
   position: relative;
@@ -246,6 +252,7 @@ body {
   height: 80px;
 }
 
+/*----Filters-----*/
 .filters {
   margin-left: 180px;
 }
@@ -292,6 +299,7 @@ body {
   height: 18px;
 }
 
+/*----Detail Page-----*/
 .column {
   display: inline-block;
   vertical-align: text-top;

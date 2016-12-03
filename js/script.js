@@ -1,4 +1,4 @@
-
+// Search function that enables users to search every time they type in a letter in the search bar.
 $('#search').keyup(function (e) {
     var inp = $('#search').val();
     var keyword = inp.toLowerCase();
@@ -19,6 +19,7 @@ $('#search').keyup(function (e) {
     }
 });
 
+// Here enables users to check/uncheck the filters in the filter section in the "All" page.
 $(".filter").click(function() {
   var image = this.childNodes[1];
   if (this.className == "filter_uncheck") {
@@ -32,16 +33,13 @@ $(".filter").click(function() {
   }
 });
 
-$(".filter_uncheck").click(function() {
-  var image = this.childNodes[1];
-  
-});
-
+// When users want to search on other pages, this function guide them back to the "All" page to do the search.
 $('#search-redirect').click( function() {
   window.location="/all.html";
   $(this).focus();
 });
 
+// This funtion makes sure that whenever users' mouse enter a selector in "Which" page, the dropdown menu will be activated.
 $(".selector").mouseenter( function(){
     var dropdown = this.childNodes[1];
     var drop = dropdown.childNodes[1];
@@ -55,7 +53,7 @@ $(".selector").mouseenter( function(){
       })
     });
 
-
+// This one makes sure that whenever users' mouse leave a selection area, the dropdown menu will be hidden.
 $(".selector").mouseleave( function(){
     var menu = this.childNodes[7];
     var dropdown = this.childNodes[1];
@@ -69,7 +67,7 @@ $(".selector").mouseleave( function(){
       })
     });
 
-
+// Here the funtion identifies the options users have chosen in the "which" page, and makes sure picture will appear corresponding to the selected items.
 $(".menu-item").click( function(){
   var menuItems = this.parentElement;
   var menu = menuItems.parentElement;
