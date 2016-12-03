@@ -1,0 +1,329 @@
+a, body, div, footer, form, h1, h2, h3, h4, h5, h6, header, hr, html, img, input, label, li, main, nav, ol, p, section, span, svg, ul {
+  border: none;
+  vertical-align: baseline;
+  letter-spacing: 0.05rem;
+  line-height: 2.2rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+body {
+  padding-top: 60px;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px;
+}
+
+.nav-container {
+  position: relative;
+}
+
+.nav {
+  position: fixed;
+}
+
+.nav img {
+  width: 100px;
+  height: 85px;
+  
+}
+
+.nav-items {
+  margin-top: 30px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.nav-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: color ease .22s;
+  display: list-item;
+  text-align: right;
+}
+
+.nav-item a{
+  color: #989898;
+  font-size: 18px;
+}
+
+.nav-item a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.bar {
+  margin-top: 40px;
+  margin-left: 180px;
+  width: 480px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+#search {
+  width: 480px;
+  font-size: 24px;
+}
+
+#search-redirect {
+  width: 480px;
+  font-size: 24px;
+}
+
+::-webkit-input-placeholder {
+   color: #CBCBCB;
+}
+
+.exp {
+  position: relative;
+  margin-left: 180px;
+  width: 480px;
+}
+
+
+
+.selectors {
+  position: relative;
+  margin-left: 180px;
+  width: 510px;
+  height: 188px;
+}
+
+.selector {
+  position: relative;
+  float: left;
+  width: 150px;
+  height: 188px;
+  margin: 20px 20px 0px 0px;
+}
+
+.selector img {
+  float: left;
+  width: 150px;
+  height: 188px;
+}
+
+.dropdown {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 150px;
+  height: 38px;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  line-height: 38px;
+}
+
+.drop {
+  position: absolute;
+  left: 124px;
+  top: 16px;
+  width: 8px;
+  height: 6px;
+}
+
+.drop img {
+  width: 8px;
+  height: 6px;
+}
+
+.category {
+  position: absolute;
+  left: 0;
+  top: 38px;
+  width: 150px;
+  height: 150px;
+}
+
+.category img{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
+
+.menu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 150px;
+  height: 188px;
+  margin: 0px;
+  display: none;
+}
+
+.exit {
+  width: 150px;
+  height: 38px;
+}
+
+.menu-items {
+  position: absolute;
+  top: 38px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu-item {
+  width: 150px;
+  height: 37.5px;
+  line-height: 37.5px;
+  text-align: center;
+  color: #FF7977;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: black;
+}
+
+#btn-generate {
+  width: 80px;
+  position: relative;
+  margin-left: 180px;
+  margin-top: 42px;
+  color: white;
+  font-size: 13px;
+  line-height: 24px;
+  border-radius: 8px;
+}
+
+.tools {
+  color: black;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.tools:hover {
+  color: #989898;
+}
+
+.tile-text a:hover{
+  text-decoration: none;
+}
+
+
+.tile {
+  position: relative;
+  margin-left: 180px;
+  width: 480px;
+  height: 120px; 
+}
+
+.spacer {
+  margin-bottom: 150px;
+}
+
+.tile-text {
+  float: left;
+  margin-top: 20px;
+  width: 350px;
+  height: 72px;
+}
+
+.tile-image {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 18px 32px 15px 0px;
+}
+
+.tile-image img {
+  width: 80px;
+  height: 80px;
+}
+
+.filters {
+  margin-left: 180px;
+}
+
+.filter_label {
+  color: black;
+  margin-right: 5px;
+  position: relative;
+  width: 55px;
+  display: inline-block;
+}
+
+.filter {
+  cursor: pointer;
+  color: #FF7874;
+  margin-right: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+.filter_uncheck {
+  cursor: pointer;
+  color: #989898;
+  margin-right: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+.filter:hover{
+  opacity: 0.7;
+}
+
+.filter_uncheck:hover{
+  opacity: 0.7;
+}
+
+.filter img{
+  width: 18px;
+  height: 18px;
+}
+
+.filter_uncheck img{
+  width: 18px;
+  height: 18px;
+}
+
+.column {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 18px;
+  vertical-align: middle;
+}
+
+.info {
+  width: 245px;
+  margin-left: 180px;
+}
+
+.download {
+  margin-left: 68px;
+  width: 100px;
+}
+
+.download img {
+  width: 90px;
+}
+
+.download a {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 8px;
+  margin-top: 30px;
+  width: 96px;
+  height: 38px;
+  line-height: 24px;
+}

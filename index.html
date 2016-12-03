@@ -1,0 +1,132 @@
+<!DOCTYPE html>		
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="./css/style.css">
+            
+    </head>
+    <body>
+      <div class="container nav-container">
+        <nav class="nav">
+          <img src="images/logo.png">
+          <ul class="nav-items">
+            <li class="nav-item">
+              <a href="/index.html" style="color: black;">
+                Which tool?
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/all.html">
+                All tools.
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="/about.html">
+                About
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      
+      <div class="container">
+        <div class="bar">
+          <input placeholder="Search tools by keyword..." maxlength="40" type="text" id="search-redirect">
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="exp">
+          <p>Select one answer from each of the categories below, and we’ll tell you what tool to use for your prototype.</p>
+        </div>
+      </div>
+      
+      <div class="container spacer">
+        <div class="selectors">
+          <div class="selector">
+            <div class="dropdown">
+              Platform
+              <div class="drop">
+                <img src="images/drop.png">
+              </div>
+            </div>
+            <img src="images/generator.png">
+            <div class="category">
+              <img src="images/platform.png">
+            </div>
+            <div class="menu">
+              <div class="exit">
+              </div>
+              <ul class="menu-items">
+                <li class="menu-item" id="mobile">Mobile</li>
+                <li class="menu-item" id="desktop">Desktop</li>
+                <li class="menu-item" id="vr">VR</li>
+                <li class="menu-item" id="multiple">Multiple</li>
+              </ul>
+            </div>
+          </div>
+          <div class="selector">
+            <div class="dropdown">
+              Focus
+              <div class="drop">
+                <img src="images/drop.png">
+              </div>
+            </div>
+            <img src="images/generator.png">
+            <div class="category">
+              <img src="images/focus.png">
+            </div>
+            <div class="menu">
+              <div class="exit">
+              </div>
+              <ul class="menu-items">
+                <li class="menu-item" id="transitions">Trasitions</li>
+                <li class="menu-item" id="animations">Animations</li>
+                <li class="menu-item" id="info">Info Structure</li>
+                <li class="menu-item" id="all">All</li>
+              </ul>
+            </div>
+          </div>
+          <div class="selector">
+            <div class="dropdown">
+              Deliverable
+              <div class="drop">
+                <img src="images/drop.png">
+              </div>
+            </div>
+            <img src="images/generator.png">
+            <div class="category">
+              <img src="images/deliverable.png">
+            </div>
+            <div class="menu">
+              <div class="exit">
+              </div>
+              <ul class="menu-items">
+                <li class="menu-item" id="screens">Screens</li>
+                <li class="menu-item" id="videos">Videos</li>
+                <li class="menu-item" id="clickable">Clickable</li>
+                <li class="menu-item" id="testable">Testable</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="btn-generate">
+        <a type="button" class="btn btn-default" id="btn-generate" href="framer.html">Done</a>
+        </div>
+      </div>
+    
+      
+    </body>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jQueryRotate.js"></script>
+    <script src="js/script.js"></script>
+    
+    
+</html>
