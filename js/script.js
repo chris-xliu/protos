@@ -35,7 +35,7 @@ $(".filter").click(function() {
 
 // When users want to search on other pages, this function guide them back to the "All" page to do the search.
 $('#search-redirect').click( function() {
-  window.location="/all.html";
+  window.location="all.html";
   $(this).focus();
 });
 
