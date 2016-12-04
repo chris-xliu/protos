@@ -22,6 +22,10 @@ body {
   padding: 0 40px;
 }
 
+.btn-default:hover {
+  color: white;
+}
+
 
 /*----Navigation-----*/
 .nav-container {
@@ -315,6 +319,21 @@ body {
   width: 245px;
   margin-left: 180px;
 }
+
+.explain {
+  margin-bottom: 18px;
+}
+
+.back {
+  cursor: pointer;
+  position: relative;
+}
+
+.back img{
+  width: 14px;
+  height: 18px;
+}
+
 
 .download {
   margin-left: 68px;

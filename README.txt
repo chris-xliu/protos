@@ -31,6 +31,8 @@ However, this is only a high-fidelity prototype. To browse through the product, 
 - jQueryRotate (http://jqueryrotate.com/)
 - Bootstrap (http://getbootstrap.com/)
 
+You can also view this project on GitHub (https://github.com/chris-xliu/protos).
+
 Thank you for checking out my project!
 
 Best,
